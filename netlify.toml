@@ -1,0 +1,3 @@
+[build]
+  command = "echo 'Using exported BlueMap site'"
+  publish = "site"
