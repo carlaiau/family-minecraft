@@ -1,33 +1,20 @@
-# Family Minecraft map
+# Family Minecraft
 
-## Introduction
+This map records our shared family world, served locally and played together using Java on my computer and Bedrock on iOS.
 
-This map records our shared family Minecraft world. The server runs locally on
-my computer: I connect directly using Minecraft Java Edition, while our
-children join over the local network from iPads running Minecraft Bedrock
-Edition. Although we use different editions and devices, we all play together
-in the same persistent world.
-
-We believe Minecraft's cooperative nature makes it a valuable learning and
-collaboration tool for our children and for ourselves. Shared projects invite
-us to explain ideas, make plans, divide responsibilities, solve problems,
-experiment, negotiate different priorities, and recover from mistakes
-together. It gives the children room to exercise creativity and independence
-while the adults participate as collaborators rather than simply directing the
-activity. The things we build are enjoyable in their own right, but the real
-value is in learning how to build them together.
+We believe Minecraft’s cooperative nature makes it a valuable learning tool for our six and and four year old, and for us. Building together encourages creativity, communication, planning, problem-solving, and learning from mistakes. It gives the children space to explore independently while we participate as collaborators. The real value isn’t just what we create, but learning how to create it together.
 
 ## About this repository
 
 This repository contains:
 
-- `site/`: the generated static BlueMap website published by Netlify.
+- `site/`: the generated static BlueMap website.
 - `server/`: a sanitized, reproducible description of the Minecraft server and
   the scripts used to publish BlueMap safely.
 
 The running Minecraft server, raw world, player records, logs, generated plugin
 configuration, credentials, and BlueMap working data remain in a separate
-private repository. They must never be copied here.
+private repository.
 
 Do not edit `site/` by hand. It is replaced and published deliberately from a
 sibling checkout of the private server repository:
