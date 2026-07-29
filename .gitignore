@@ -1,0 +1,6 @@
+# A running server must never store its private data in this public repository.
+server/data/
+server/.env
+
+# Local/editor files.
+.DS_Store
